@@ -1,2 +1,67 @@
-<font-style="sans-serif>
-<link href="<p> <a href="strength/index.html">Build strong muscles</a>
+/* the styles for the elements */
+* {
+	margin: 0;
+	padding: 0;
+}	
+
+body {
+	font-family: sans-serif;
+	float: right;
+	margin: 0;
+	background-color: #f0f0f0;
+	width: 900px;
+	border-bottom: solid;
+	border-color: steelblue;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+	font-size: 100%;
+}
+
+/* the styles for the header*/
+header img {
+	float: left;
+}
+
+header {
+	padding: 20px;
+	border-style: solid;
+	border-color: steelblue;
+	background: linear-gradient(white, lightsteelblue);
+}
+
+header h2 {
+	color: steelblue;
+	text-indent: 30px;
+	.shadow { 
+	text-shadow: 3px 3px 2px steelblue;
+	}
+}
+header h3 {
+	text-indent: 30px;
+
+}
+/* the styles for the main content */
+a:link {color:maroon;}
+a:hover {color:steelblue;}
+
+a.steelblue:link {color:steelblue;}
+a.steelblue:hover {color:maroon;}
+
+li {
+  margin: 5px 0;
+}
+main {
+	clear: left;
+}
+
+/* the styles for the footer */
+footer {
+	text-align: center;
+	font-size: 70%;
+	background: steelblue;
+	color: white;
+	padding: 10px;
+}
+header, footer, main {
+	margin: 0;
+	padding: 10px;
+}
